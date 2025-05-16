@@ -31,7 +31,7 @@ const Student = db.define("student", {
     allowNull: true,
     defaultValue: 'https://via.placeholder.com/150'
   },
-  
+
   gpa: {
     type: Sequelize.DECIMAL(3, 2),
     allowNull: true,
