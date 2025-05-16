@@ -25,7 +25,7 @@ const Campus = db.define("campus", {
   imageUrl: {
     type: Sequelize.STRING,
     allowNull: true,
-    defaultValue: 'https://via.placeholder.com/150'
+    defaultValue: 'https://images.unsplash.com/photo-1580587771525-78b9dba3b914?fit=crop&w=800&q=80'
   } 
 });
 
